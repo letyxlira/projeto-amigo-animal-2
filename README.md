@@ -1,4 +1,4 @@
-# 🐾 Amigo Animal - Projeto Front-End (Entrega II)
+# 🐾 Projeto Front-End - Amigo Animal (Entrega II)
 
 Este é um projeto acadêmico desenvolvido para a disciplina de **Desenvolvimento Front-End Para Web**. O objetivo desta entrega foi aplicar conceitos avançados de **CSS3** para transformar uma estrutura HTML básica (Entrega I) em uma interface web moderna, responsiva e componentizada.
 
