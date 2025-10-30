@@ -10,41 +10,75 @@
 <body>
 
     <header>
-        <h1>Amigo Animal</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="cadastro.html">Participe</a></li>
-            </ul>
-        </nav>
-    </header>
+    <h1><a href="index.html">Amigo Animal</a></h1>
 
-    <main>
-    <h2>Nossos Projetos</h2>
-<p>Conheça as frentes de atuação da nossa ONG e veja como seu apoio faz a diferença.</p>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-hamburger">
+        <span class="hamburger-linha"></span>
+        <span class="hamburger-linha"></span>
+        <span class="hamburger-linha"></span>
+    </label>
 
-<article>
-    <h3>Projeto Saúde Para Todos</h3>
-    <img src="img/projeto-saude.jpg" alt="Um veterinário examina um gato laranja">
-    <p>Este projeto oferece consulta veterinária para animais de rua. Nosso objetivo é garantir qualidade de vida a animais abandonados.</p>
-</article>
-
-<article>
-    <h3>Carinho Comunitário</h3>
-    <img src="img/projeto-carinho.jpg" alt="Voluntários fazendo carinho em cão abandonado, resgatado pela ONG">
-    <p>Semanalmente, nossos voluntários visitam a ONG para brincar e fazer carinho em pets que foram resgatados das ruas.</p>
-</article>
-
-<section>
-    <h2>Como Ajudar</h2>
-    <p>Você pode fazer a diferença e se tornar parte dessa transformação!</p>
+    <nav class="menu-principal">
     <ul>
-        <li><a href="cadastro.html">Seja um voluntário</a>: Dedique seu tempo aos nossos projetos.</li>
-        <li>Faça uma doação (PIX): <strong>12.345.678/0001-99</strong></li>
+        <li><a href="index.html">Início</a></li>
+        
+        <li class="dropdown">
+            <a href="projetos.html">Projetos</a>
+            <ul class="submenu">
+                <li><a href="projetos.html#saude">Projeto Saúde</a></li>
+                <li><a href="projetos.html#carinho">Projeto Carinho</a></li>
+            </ul>
+        </li>
+
+        <li><a href="cadastro.html" class="btn btn--primario btn--sm">Participe</a></li>
     </ul>
-</section>
-        </main>
+</nav> 
+</header>
+
+   <main>
+    <h2>Nossos Projetos</h2>
+    <p>Conheça as frentes de atuação da nossa ONG e veja como seu apoio faz a diferença.</p>
+
+    <div class="row">
+
+        <article class="col-6 card"> 
+            
+            <div class="card__imagem-container"> 
+                <img src="img/projeto-saude.jpg" alt="Um veterinário examina um gato laranja">
+            </div>
+            
+            <div class="card__conteudo">
+                <h3 id="saude">Projeto Saúde Para Todos</h3>
+                <span class="badge badge--perigo">Urgente</span> 
+                <p style="margin-top: var(--espaco-sm);">Este projeto oferece consulta veterinária para animais de rua. Nosso objetivo é garantir qualidade de vida a animais abandonados.</p>
+            </div> 
+        </article>
+
+        <article class="col-6 card">
+            
+            <div class="card__imagem-container">
+                <img src="img/projeto-carinho.jpg" alt="Voluntários fazendo carinho em cão abandonado">
+            </div>
+            
+            <div class="card__conteudo">
+                <h3 id="carinho">Carinho Comunitário</h3>
+                <p>Semanalmente, nossos voluntários visitam a ONG para brincar e fazer carinho em pets que foram resgatados das ruas.</p>
+            </div>
+        </article>
+    </div> 
+    
+    <div class="row">
+        <section class="col-12">
+            <h2>Como Ajudar</h2>
+            <p>Você pode fazer a diferença e se tornar parte dessa transformação!</p>
+            <ul>
+                <li><a href="cadastro.html" class="btn btn--primario btn--sm">Seja um voluntário</a></li>
+                <li>Faça uma doação (PIX): <strong>12.345.678/0001-99</strong></li>
+            </ul>
+        </section>
+    </div>
+</main> 
 
     <footer>
         <p>&copy; 2025 Amigo Animal. Todos os direitos reservados.</p>
