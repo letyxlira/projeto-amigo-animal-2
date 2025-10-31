@@ -1,52 +1,60 @@
-# 🐾 Projeto Front-End - Amigo Animal (Entrega II)
+# 🎯 Projeto ONG - Amigo Animal (Entrega II)
 
-Este é um projeto acadêmico desenvolvido para a disciplina de **Desenvolvimento Front-End Para Web**. O objetivo desta entrega foi aplicar conceitos avançados de **CSS3** para transformar uma estrutura HTML básica (Entrega I) em uma interface web moderna, responsiva e componentizada.
+<p align="center">
+  <img src="https://img.shields.io/badge/status-concluído-green" alt="Status do Projeto: Concluído">
+  <img src="https://img.shields.io/badge/licença-MIT-blue" alt="Licença MIT">
+</p>
 
-O foco principal foi o **aprendizado e a aplicação prática** de um Design System, layouts com Grid/Flexbox e componentização seguindo a metodologia BEM.
-
-<br>
-
-## ✨ Funcionalidades e Conceitos Aplicados
-
-Este projeto possui:
-
-* **Design System:** Um sistema de design consistente foi criado com Variáveis CSS (`:root`) para cores, fontes e espaçamentos.
-* **Layout CSS Grid:** O layout principal da página (header, main, footer) foi estruturado com `grid-template-areas`.
-* **Layout Flexbox:** Componentes internos, como o cabeçalho, foram alinhados com `display: flex`.
-* **Grid de 12 Colunas:** Foi implementado um sistema de grid customizado (`.row` e `.col-X`) para organizar o conteúdo.
-* **Navegação Sofisticada:**
-    * Menu Dropdown em Desktop (`:hover`).
-    * Menu Hambúrguer funcional em telas menores (Mobile-first).
-* **Componentes Estilizados:**
-    * Cards de projeto com efeitos de `hover` (transform).
-    * Botões com múltiplos estados (`:hover`, `:focus`, `:active`) e modificadores de tamanho (`.btn--sm`).
-    * Formulários com validação visual (`:valid`, `:invalid`).
-    * Componentes de feedback (Alerts e Badges).
-* **Responsividade:** O site se adapta a diferentes tamanhos de tela através de 5 breakpoints (`@media queries`).
+> Este é um projeto acadêmico desenvolvido para a disciplina de **Desenvolvimento Front-End Para Web**. O objetivo desta entrega foi aplicar conceitos avançados de **CSS3** para transformar uma estrutura HTML básica (Entrega I) em uma interface web moderna, responsiva e componentizada.
 
 <br>
+
+---
+
+## ✨ Funcionalidades Principais
+
+* **Layout Responsivo:** O site se adapta a 5 breakpoints de tela (celulares, tablets e desktops).
+* **Navegação Sofisticada:** Menu de navegação claro com dropdown em desktop e menu hambúrguer funcional em mobile.
+* **Validação Visual (CSS):** O formulário de cadastro usa pseudo-classes (`:valid`, `:invalid`) para dar feedback ao usuário.
+* **Sistema de Componentes:** Cards, botões (com estados de `:hover`/`:focus`), alertas e badges criados com CSS modular.
+* **Layouts Modernos:** A estrutura principal usa CSS Grid (`grid-template-areas`) e componentes internos usam Flexbox.
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **HTML5** (Estrutura Semântica)
-* **CSS3** (Variáveis, Grid, Flexbox, Media Queries)
+* **Frontend:** HTML5, CSS3 (Variáveis, Grid, Flexbox)
+* **Outras Ferramentas:** Git, VS Code
 
-<br>
+---
 
 ## 🚀 Como Rodar o Projeto
 
+Siga os passos abaixo para conseguir rodar o projeto localmente.
+
+### Pré-requisitos
+
+* Um navegador web moderno (Chrome, Firefox, Opera)
+
+### Instalação
+
 1.  Clone este repositório:
     ```bash
-    git clone https://github.com/letyxlira/projeto-amigo-animal.git
+    git clone https://github.com/letyxlira/projeto-amigo-animal-update.git
     ```
+
 2.  Acesse a pasta do projeto:
     ```bash
-    cd projeto-amigo-animal
+    cd projeto-amigo-animal-update
     ```
-3.  Basta abrir o arquivo `index.html` no seu navegador.
 
-<br>
+3.  Basta clonar o repositório e abrir o arquivo `index.html` no seu navegador.
+
+---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Letycia L. Barbosa**. 
+Desenvolvido por **Letycia L. Barbosa**.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/letycia-lira-barbosa)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/letyxlira)
